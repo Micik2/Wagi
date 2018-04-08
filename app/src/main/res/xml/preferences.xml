@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference
+        android:title="Wybierz jednostkę"
+        android:summary="Wybierz jednostkę wagi pomiędzy kilogramami a funtami"
+        android:key="downloadType"
+        android:defaultValue="0"
+        android:entries="@array/jednostki"
+        android:entryValues="@array/wartosci" />
+</PreferenceScreen>
